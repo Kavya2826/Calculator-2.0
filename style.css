@@ -1,3 +1,12 @@
+.heading{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    background-color: gainsboro;
+    color: black;
+}
 
 #ConvertButton {
   background: orange;
@@ -11,6 +20,16 @@
   cursor: pointer;
 }
 
+button {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all 0.1s ease-in-out;
+}
+
 button:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em;
@@ -21,158 +40,90 @@ button:active {
   box-shadow: 0.05em 0.05em;
 }
 
-
-.heading{
-    font-size: 2em;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.MainAraea{
-    width: 100%;
-    height: 100%;
-    background-color: #f0f0f0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.number{
-    font-size: 17px;
-    padding: 0.5em 1.8em;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: lightgray;
-    color: white;
+#equal{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
-    padding-top: 30%;
-    padding-bottom: 30%;
+    background-color: orange;
 }
 
-.Dnumber{
-    font-size: 17px;
-    padding-top: 30%;
-    padding-bottom: 30%;    
-    padding-left: 33%;
-    padding-right: 33%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: lightgrey;
-    color: white;
+#addition{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
+    background-color: rgb(180, 180, 180);
 }
 
-.AllClear{
-    font-size: 17px;
-    padding: 30%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
+#subtraction{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
-    
+    background-color: rgb(180, 180, 180);
 }
 
-.Unassigned{
-    font-size: 17px;
-    padding-top: 30%;
-    padding-bottom: 30%;    
-    padding-left: 39%;
-    padding-right: 39%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
+#multiplication{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
+    background-color: rgb(180, 180, 180);
 }
 
-.Division{
-    font-size: 35px;
-    padding-top: 16%;
-    padding-bottom: 16%;    
-    padding-left: 30%;
-    padding-right: 30%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
+#division{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
+    background-color: rgb(180, 180, 180);
 }
 
-.Multiplication{
-    font-size: 17px;
-    padding-top: 30%;
-    padding-bottom: 30%;    
-    padding-left: 36%;
-    padding-right: 36%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
+#clear{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
     border-radius: 50%;
+    background-color: rgb(180, 180, 180);
+}
+ #backspace{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: rgb(180, 180, 180);
+}
+#unassigned{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: rgb(180, 180, 180);
 }
 
-.Substraction{
-    font-size: 17px;
-    padding-top: 30%;
-    padding-bottom: 30%;    
-    padding-left: 39%;
-    padding-right: 39%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
-    border-radius: 50%;
-}
-
-.Addition{
-    font-size: 17px;
-    padding-top: 30%;
-    padding-bottom: 30%;    
-    padding-left: 39%;
-    padding-right: 39%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
-    border-radius: 50%;
-}
-
-.Equals{
-    font-size: 17px;
-    padding: 0.5em 1.9em;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: orange;
-    color: white;
-    border-radius: 50%;
-    padding-top: 30%;
-    padding-bottom: 30%;
-}
-
-.Backspace{
-    font-size: 17px;
-    padding-top: 28%;
-    padding-bottom: 28%;    
-    padding-left: 31%;
-    padding-right: 31%;
-    border: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: gray;
-    color: white;
-    border-radius: 50%;
+#ConvertButton{
+  background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
 }
 
 button:hover {
- background: rgb(2,0,36);
- background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
-}
-
-button:active {
- transform: translate(0em, 0.2em);
-}
-
-.TableData{
-    border: 1px solid rgb(255, 255, 255);
-    text-align: center;
-}
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
