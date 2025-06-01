@@ -20,6 +20,17 @@ body {
   cursor: pointer;
 }
 
+#display {
+    width: 15%;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 10px;
+}
+
 button {
     width: 45px;
     height: 45px;
